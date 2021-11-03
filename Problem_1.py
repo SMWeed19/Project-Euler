@@ -11,4 +11,13 @@ def find_multiples(m, n):
             multiples_of_m_below_n.append(i)
     return multiples_of_m_below_n
 
-print(find_multiples(3, 10))
+three = find_multiples(3, 1000)
+five = find_multiples(5, 1000)
+
+sum = 0
+for i in three:
+    sum += i
+for i in five:
+    sum += i
+
+print(sum)
