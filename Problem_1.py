@@ -18,6 +18,8 @@ sum = 0
 for i in three:
     sum += i
 for i in five:
-    sum += i
+    if i not in three:
+        sum += i
 
 print(sum)
+# 233168
